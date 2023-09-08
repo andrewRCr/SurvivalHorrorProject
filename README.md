@@ -1,6 +1,6 @@
 # Survival Horror / Escape Room Project
 
-9 environmental puzzles | 3rd person combat | Inventory management | made in Unreal Engine 5
+9 environmental puzzles | 3rd person combat | inventory management | developed in Unreal Engine 5
 |------------|-------------|-------------|-------------|
 | <img src="https://github.com/andrewcreekmore/SurvivalHorrorProject/assets/44483269/7dc4b376-669d-4ba1-91a9-2ddf7807e834" width="250"> | <img src="https://github.com/andrewcreekmore/SurvivalHorrorProject/assets/44483269/317cb87c-848a-4cd6-8610-3d93d8eb86c4" width="250"> | <img src="https://github.com/andrewcreekmore/SurvivalHorrorProject/assets/44483269/52b18dfd-d4e0-4d0c-bc6d-39a24851f9e1" width="250"> | <img src="https://github.com/andrewcreekmore/SurvivalHorrorProject/assets/44483269/76823b97-38b9-461d-a6c1-3b7ce285b539" width="250"> |  
 
