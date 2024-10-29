@@ -11,4 +11,4 @@ Features 9 puzzles of varying complexity, a progression-updated multi-floor map 
 I was the project lead in a group of three, responsible for the overall game framework, player character locomotion (animation logic, state machines), the bulk of the interaction and inventory systems, the entirety of combat and enemies (animation logic, physical animation for hit reactions, locational blood masking of meshes when shot, ragdoll systems, and AI), as well as a few puzzle mechanics (pushable objects, combination padlock interactions). I also handled the majority of the menu systems, as well as the brief “cinematic” level sequences.
 
 Preview it here: https://andrewcreekmore.com/projects/survivalhorror  
-Download (Windows) and play it here: https://drive.google.com/file/d/185ZriC1I0Dh-U8S2yepOix_0MQzKb8AJ/view?usp=share_link
+Download (Windows) and play it here: [Google Drive](https://drive.google.com/file/d/1f7JPpYg7aZcZ0B5MIgAoK4epn9MWZhD4/view?usp=sharing)
