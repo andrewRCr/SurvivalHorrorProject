@@ -1,14 +1,55 @@
-# Survival Horror / Escape Room Project
+# Survival Horror Project
 
-9 environmental puzzles | 3rd person combat | inventory management | developed in Unreal Engine 5
-|------------|-------------|-------------|-------------|
-| <img src="https://github.com/andrewcreekmore/SurvivalHorrorProject/assets/44483269/7dc4b376-669d-4ba1-91a9-2ddf7807e834" width="250"> | <img src="https://github.com/andrewcreekmore/SurvivalHorrorProject/assets/44483269/317cb87c-848a-4cd6-8610-3d93d8eb86c4" width="250"> | <img src="https://github.com/andrewcreekmore/SurvivalHorrorProject/assets/44483269/52b18dfd-d4e0-4d0c-bc6d-39a24851f9e1" width="250"> | <img src="https://github.com/andrewcreekmore/SurvivalHorrorProject/assets/44483269/76823b97-38b9-461d-a6c1-3b7ce285b539" width="250"> |  
+A demo-length survival horror game built in Unreal Engine 5 with C++, developed as a
+Computer Science capstone project and delivered in eight weeks by a three-person team.
+Players navigate a zombie-infested mansion during a thunderstorm, solving nine
+environmental puzzles to collect key items and escape. Combat features directional hit
+reactions with per-limb damage tracking, locational blood masking, and ragdoll physics.
 
-Capstone project for my bachelor's in Computer Science from Oregon State University; completed in eight weeks. Began life as a more abstract escape room scenario, but evolved over time into a classic 90's survival horror setup - solving various environmental puzzles to retrieve key items in order to escape a zombie-infested mansion during a thunderstorm. 
+As project lead, I scoped and implemented the core game framework, all combat and AI
+systems, cinematic sequences for narrative transitions, and the reusable interaction
+and inventory components, while coordinating task delegation across the team.
 
-Features 9 puzzles of varying complexity, a progression-updated multi-floor map system, inventory management systems, and simple but classic combat with various zombies (four distinct models, with details such as hair, clothing, and skin appearance randomly determined on spawn). 
+<p align="center">
+  <a href="https://downloads.andrewcreekmore.dev/MansionEscape98_v1.6.7z">Download (Windows)</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://andrewcreekmore.dev/projects/game/survival-horror-project">Portfolio</a>
+</p>
 
-I was the project lead in a group of three, responsible for the overall game framework, player character locomotion (animation logic, state machines), the bulk of the interaction and inventory systems, the entirety of combat and enemies (animation logic, physical animation for hit reactions, locational blood masking of meshes when shot, ragdoll systems, and AI), as well as a few puzzle mechanics (pushable objects, combination padlock interactions). I also handled the majority of the menu systems, as well as the brief “cinematic” level sequences.
+<div align="center">
+  <a href="https://github.com/andrewcreekmore/SurvivalHorrorProject/assets/44483269/7dc4b376-669d-4ba1-91a9-2ddf7807e834"><img src="https://github.com/andrewcreekmore/SurvivalHorrorProject/assets/44483269/7dc4b376-669d-4ba1-91a9-2ddf7807e834" width="24%" alt="Exploration" /></a>
+  <a href="https://github.com/andrewcreekmore/SurvivalHorrorProject/assets/44483269/317cb87c-848a-4cd6-8610-3d93d8eb86c4"><img src="https://github.com/andrewcreekmore/SurvivalHorrorProject/assets/44483269/317cb87c-848a-4cd6-8610-3d93d8eb86c4" width="24%" alt="Combat" /></a>
+  <a href="https://github.com/andrewcreekmore/SurvivalHorrorProject/assets/44483269/52b18dfd-d4e0-4d0c-bc6d-39a24851f9e1"><img src="https://github.com/andrewcreekmore/SurvivalHorrorProject/assets/44483269/52b18dfd-d4e0-4d0c-bc6d-39a24851f9e1" width="24%" alt="Inventory" /></a>
+  <a href="https://andrewcreekmore.dev/projects/survival-horror-project/screenshot-7.webp"><img src="https://andrewcreekmore.dev/projects/survival-horror-project/screenshot-7.webp" width="24%" alt="Map system" /></a>
+</div>
 
-Preview it here: [andrewcreekmore.com/projects/survivalhorror](https://andrewcreekmore.com/projects/survivalhorror)  
-Play it here (Windows): [Download](https://drive.google.com/file/d/1f7JPpYg7aZcZ0B5MIgAoK4epn9MWZhD4/view?usp=sharing)
+## Details
+
+*Players explore a storm-battered mansion, solving environmental puzzles across multiple
+floors, managing limited ammunition and healing items, and fighting through zombies to
+collect key items and escape.*
+
+- Nine environmental puzzles with container-based item validation gating progression
+  through the mansion
+- Directional hit reactions with per-limb damage tracking, locational blood masking on
+  enemy models, and ragdoll death physics
+- Incapacitation system: sufficient leg damage transitions enemies from standing to
+  crawling with modified movement speed, attack patterns, and ground-level alignment
+- Hitscan weapon system with bone-specific damage modifiers, crosshair spread affected
+  by movement, and curve-driven recoil
+- Four zombie base types with randomized clothing and hair meshes generating visual
+  variety across encounters
+- Component-based interaction with raycast detection, timed hold-to-interact, and
+  delegate-driven events reused across doors, containers, pickups, and puzzle elements
+- Progression-updated map system revealing newly explored areas and floors as puzzles
+  are solved
+
+## Technology
+
+- **Engine:** Unreal Engine 5
+- **Languages:** C++
+- **Visual Scripting:** Blueprint
+- **Version Control:** Perforce
+- **Project Management:** Jira
+
+<p align="center"><a href="#survival-horror-project">↑ Back to top</a></p>
